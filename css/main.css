@@ -1,7 +1,6 @@
 *{
 	margin:0;
 	padding: 0;
-	outline: 1px solid red;
 	font-family: "Roboto",serif;
 }
 /*-- Header ----------------------------*/
@@ -13,6 +12,7 @@ header .button{
 	background: #FE9A2E;
 	color:#fff;
 	text-align: center;
+	margin-top: 20px;
 }
 header .menu{
 	color: #fff;
@@ -47,15 +47,52 @@ header a{
     transform: translate(-50%, -50%);
 }
 /*-------------------Main Section------------*/
-.main-section{
-	color: #000;
+.main-section {
+    background: #D8D8D8;
+    padding: 70px 0 20px 0;
 }
-
-.caja{
-	width: 300px;
-	height: 300px;
-	background: #BDBDBD;
-	
+.main-section .box {
+    background: #fff;
+    padding: 15px;
+}
+.main-section .uno{
+    margin: 0 15px 15px 0;
+}
+.main-section .dos {
+    margin: 0 0 15px 15px;
+}
+.main-section  .tres{
+    margin: 15px 15px 0 0;
+}
+.main-section .cuatro {
+    margin: 15px 0 0 15px;
+}
+.main-section .imagen {
+    width: 300px;
+    height: 300px;
+    background: #A4A4A4;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.main-section .imagen p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -15px 0 0 -50px;
+    font-size: 20px;
+}
+.main-section .col-md-6 {
+    padding: 0;
+}
+.main-section button {
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    color: #fff;
+    background: rgba(240, 150, 1, 0.8);
+    border: none;
+    
 }
 /*----------------------Footer--------------*/
 footer{
